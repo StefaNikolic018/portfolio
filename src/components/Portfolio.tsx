@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useCallback } from 'react'
+import logo from './../assets/sn-logo2.png'
 
 const Portfolio: React.FC = () => {
   const [darkMode, setDarkMode] = useState(false)
@@ -14,7 +15,9 @@ const Portfolio: React.FC = () => {
       {/* Header */}
       <header className="bg-white shadow-sm">
         <div className="container mx-auto flex items-center justify-between py-4 px-8">
-          <h1 className="text-2xl font-bold">My Portfolio</h1>
+          <h1 className="text-2xl font-bold">
+            <img src={logo} className="h-10 w-10" />
+          </h1>
           {/* Navigation menu */}
           <nav className="space-x-4">
             <a href="#" className="text-gray-600 hover:text-gray-900">
@@ -90,7 +93,7 @@ const Portfolio: React.FC = () => {
       </section>
 
       {/* About */}
-      <section className="py-20">
+      <section className="px-10 py-20">
         <div className="container mx-auto">
           <h2 className="mb-4 text-3xl font-bold">About Me</h2>
           <p className="mb-8 text-lg">
@@ -111,7 +114,7 @@ const Portfolio: React.FC = () => {
       </section>
 
       {/* Projects */}
-      <section className="bg-gray-200 py-20">
+      <section className="bg-gray-200 px-10 py-20">
         <div className="container mx-auto">
           <h2 className="mb-4 text-3xl font-bold">Projects</h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -163,7 +166,7 @@ const Portfolio: React.FC = () => {
       </section>
 
       {/* Companies Logo Marquee */}
-      <section className="py-10">
+      <section className="px-10 py-10">
         <div className="container mx-auto">
           <h2 className="mb-4 text-3xl font-bold">Featured Companies</h2>
           <div className="flex space-x-8">
@@ -177,7 +180,7 @@ const Portfolio: React.FC = () => {
       </section>
 
       {/* Contact */}
-      <section className="bg-gray-300 py-20">
+      <section className="bg-gray-300 px-10 py-20">
         <div className="container mx-auto">
           <h2 className="mb-4 text-3xl font-bold">Contact Me</h2>
           <p className="mb-8 text-lg">
