@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useCallback } from 'react'
-import logo from './../assets/sn-logo2.png'
+import logo from './../assets/sn-logo.svg'
 
 const Portfolio: React.FC = () => {
   const [darkMode, setDarkMode] = useState(false)
