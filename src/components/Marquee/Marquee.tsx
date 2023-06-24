@@ -13,7 +13,7 @@ import vtsnis from '../../assets/companies/vtsnis.png'
 import './marquee.css'
 
 // TODO:NEED TO TRY IT LIKE THIS
-/* https://codepen.io/hexagoncircle/pen/wvmjomb */
+// /* https://codepen.io/hexagoncircle/pen/wvmjomb */
 
 const Marquee = () => {
   return (
