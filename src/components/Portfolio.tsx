@@ -2,6 +2,7 @@ import React, { useMemo } from 'react'
 import { useSelector } from 'react-redux'
 
 import { Header } from './Header'
+import Marquee from './Marquee/Marquee'
 
 const Portfolio: React.FC = () => {
   const darkMode = useSelector((state: { darkMode: boolean }) => state.darkMode)
@@ -11,7 +12,6 @@ const Portfolio: React.FC = () => {
   return (
     <div className={`bg-gray-100 ${mode}`}>
       <Header />
-
       {/* Hero */}
       <section className="flex h-[calc(100vh-72px)] flex-col justify-center bg-blue-500 py-20 text-white">
         <div className="container mx-auto text-center">
@@ -25,7 +25,6 @@ const Portfolio: React.FC = () => {
           </button>
         </div>
       </section>
-
       {/* About */}
       <section className="px-10 py-20">
         <div className="container mx-auto">
@@ -46,7 +45,6 @@ const Portfolio: React.FC = () => {
           </ul>
         </div>
       </section>
-
       {/* Projects */}
       <section className="bg-gray-200 px-10 py-20">
         <div className="container mx-auto">
@@ -98,21 +96,16 @@ const Portfolio: React.FC = () => {
           </div>
         </div>
       </section>
-
       {/* Companies Logo Marquee */}
+
       <section className="px-10 py-10">
         <div className="container mx-auto">
-          <h2 className="mb-4 text-3xl font-bold">Featured Companies</h2>
-          <div className="flex space-x-8">
-            {/* Company logos */}
-            <img src="company1.png" alt="Company 1" className="h-12" />
-            <img src="company2.png" alt="Company 2" className="h-12" />
-            <img src="company3.png" alt="Company 3" className="h-12" />
-            <img src="company4.png" alt="Company 4" className="h-12" />
-          </div>
+          <h2 className="mb-4 text-center text-3xl font-bold">
+            Featured Companies
+          </h2>
+          <Marquee />
         </div>
       </section>
-
       {/* Contact */}
       <section className="bg-gray-300 px-10 py-20">
         <div className="container mx-auto">
@@ -125,7 +118,6 @@ const Portfolio: React.FC = () => {
           {/* Contact form */}
         </div>
       </section>
-
       {/* Footer */}
       <footer className="bg-gray-100 py-10">
         <div className="container mx-auto">
