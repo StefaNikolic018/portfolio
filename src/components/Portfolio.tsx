@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import { useSelector } from 'react-redux'
 
-import { Header } from './Header'
+import Header from './Header'
 import Marquee from './Marquee/Marquee'
 
 const Portfolio: React.FC = () => {

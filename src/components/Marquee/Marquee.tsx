@@ -1,14 +1,14 @@
 import React, { memo } from 'react'
 
+import sm from '../../assets/companies/sm.svg'
 import chipstars from '../../assets/companies/chipstars.svg'
-import fermicoding from '../../assets/companies/fermicoding.png'
 import gf from '../../assets/companies/gf-logo.png'
 import mintly from '../../assets/companies/mintly.png'
-import sm from '../../assets/companies/sm.svg'
-import goodnautical from '../../assets/companies/goodnautical.png'
-import topsetplus from '../../assets/companies/topsetplus.png'
-import united_nations from '../../assets/companies/united_nations.png'
 import vtsnis from '../../assets/companies/vtsnis.png'
+import topsetplus from '../../assets/companies/topsetplus.png'
+import fermicoding from '../../assets/companies/fermicoding.png'
+import goodnautical from '../../assets/companies/goodnautical.png'
+import united_nations from '../../assets/companies/united_nations.png'
 
 import './marquee.css'
 
