@@ -1,7 +1,8 @@
 import React, { useMemo } from 'react'
 import { useSelector } from 'react-redux'
 
-import Header from './Header'
+import Footer from './Footer'
+import Header from './header'
 import Marquee from './Marquee/Marquee'
 
 const Portfolio: React.FC = () => {
@@ -119,13 +120,7 @@ const Portfolio: React.FC = () => {
         </div>
       </section>
       {/* Footer */}
-      <footer className="bg-gray-100 py-10">
-        <div className="container mx-auto">
-          <p className="text-center text-gray-500">
-            © 2023 My Portfolio. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
