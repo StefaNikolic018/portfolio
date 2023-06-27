@@ -13,7 +13,7 @@ import united_nations from '../../assets/companies/united_nations.png'
 
 const MarqueeSection = () => {
   return (
-    <Marquee gradient className="flex flex-col">
+    <Marquee pauseOnHover gradient className="flex flex-col">
       <div className="flex flex-row items-center justify-center gap-10">
         <img
           src={chipstars}
