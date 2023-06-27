@@ -1,4 +1,4 @@
-# Web Dev Portfolio 
+# Web Dev Portfolio
 
 ## About
 
@@ -10,6 +10,9 @@ Vite, React + TailwindCSS + TypeScript project with some tools preconfigured.
 
 - [Jest 29](https://jestjs.io/)
 - [React 18](https://reactjs.org/)
+  - [react-redux](https://react-redux.js.org/)
+  - [react-fast-marquee](https://www.react-fast-marquee.com/)
+  - [react-animated-cursor](https://stephenscaff.github.io/react-animated-cursor/)
 - [tailwindcss 3](https://tailwindcss.com/)
   - [tailwindcss forms plugin](https://tailwindcss-forms.vercel.app/)
 - [TypeScript 4.9.5](https://www.typescriptlang.org/)
