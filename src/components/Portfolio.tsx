@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 
 import Footer from './Footer'
 import Header from './header'
-import Marquee from './Marquee/Marquee'
+import Marquee from './Marquee/MarqueeSection'
 
 const Portfolio: React.FC = () => {
   const darkMode = useSelector((state: { darkMode: boolean }) => state.darkMode)
