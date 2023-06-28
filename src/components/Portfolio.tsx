@@ -119,7 +119,6 @@ const Portfolio: React.FC = () => {
           {/* Contact form */}
         </div>
       </section>
-      {/* Footer */}
       <Footer />
     </div>
   )
