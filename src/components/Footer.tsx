@@ -5,7 +5,8 @@ function Footer() {
     <footer className="bg-gray-100 py-10">
       <div className="container mx-auto">
         <p className="text-center text-gray-500">
-          © 2023 {import.meta.env.VITE_USERNAME}. All rights reserved.
+          © {new Date().getFullYear()} {import.meta.env.VITE_USERNAME}. All
+          rights reserved.
         </p>
       </div>
     </footer>
