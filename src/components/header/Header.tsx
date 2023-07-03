@@ -7,9 +7,7 @@ function Header() {
   return (
     <header className="bg-white shadow-sm">
       <div className="container mx-auto flex items-center justify-between py-4 px-8">
-        <h1 className="text-2xl font-bold">
-          <img src={logo} className="h-10 w-10" />
-        </h1>
+        <img src={logo} className="h-10 w-10" />
         <Navigation />
       </div>
     </header>
