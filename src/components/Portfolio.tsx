@@ -98,7 +98,6 @@ const Portfolio: React.FC = () => {
         </div>
       </section>
       {/* Companies Logo Marquee */}
-
       <section className="px-10 py-10">
         <div className="container mx-auto">
           <h2 className="mb-4 text-center text-3xl font-bold">
@@ -116,7 +115,7 @@ const Portfolio: React.FC = () => {
             opportunities. I'm available for freelance work and open to new
             projects.
           </p>
-          {/* Contact form */}
+          {/* Contact form needs to be here */}
         </div>
       </section>
       <Footer />
