@@ -2,8 +2,8 @@ import React, { useMemo } from 'react'
 import { useSelector } from 'react-redux'
 
 import Footer from './Footer'
-import Header from './header'
-import Marquee from './Marquee/MarqueeSection'
+import Header from './Header'
+import Marquee from './Marquee'
 
 const Portfolio: React.FC = () => {
   const darkMode = useSelector((state: { darkMode: boolean }) => state.darkMode)
@@ -98,14 +98,8 @@ const Portfolio: React.FC = () => {
         </div>
       </section>
       {/* Companies Logo Marquee */}
-      <section className="px-10 py-10">
-        <div className="container mx-auto">
-          <h2 className="mb-4 text-center text-3xl font-bold">
-            Featured Companies
-          </h2>
-          <Marquee />
-        </div>
-      </section>
+
+      <Marquee />
       {/* Contact */}
       <section className="bg-gray-300 px-10 py-20">
         <div className="container mx-auto">
