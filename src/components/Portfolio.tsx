@@ -14,7 +14,7 @@ const Portfolio: React.FC = () => {
     <div className={`bg-gray-100 ${mode}`}>
       <Header />
       {/* Hero */}
-      <section className="flex h-[calc(100vh-72px)] flex-col justify-center bg-blue-500 py-20 text-white">
+      <section className="flex h-[calc(100vh-72px)] flex-col justify-center bg-blue-500 bg-opacity-50 bg-[url('/src/assets/paper.jpg')] py-20 text-white">
         <div className="container mx-auto text-center">
           <h2 className="mb-4 text-4xl font-bold">Welcome to My Portfolio</h2>
           <p className="mb-8 text-lg">

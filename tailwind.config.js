@@ -5,6 +5,13 @@ module.exports = {
     extend: {
       opacity: ['disabled']
     }
+  },
+  theme: {
+    fontFamily: {
+      jiro: ['Jiro', 'sans-serif'],
+      dalfitra: ['Dalfitra', 'cursive'],
+      comebro: ['Comebro', 'cursive']
+    }
   }
 }
 // GANGSTARR - DARK

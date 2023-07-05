@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Dalfitra';
+  src: url('./assets/fonts/Dalfitra-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Jiro';
+  src: url('./assets/fonts/Jiro-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Comebro';
+  src: url('./assets/fonts/comebro-script.otf');
+}
