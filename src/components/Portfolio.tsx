@@ -1,8 +1,9 @@
 import React, { useMemo } from 'react'
 import { useSelector } from 'react-redux'
 
-import Footer from './Footer'
+import About from './About'
 import Header from './Header'
+import Footer from './Footer'
 import Marquee from './Marquee'
 
 const Portfolio: React.FC = () => {
@@ -26,26 +27,7 @@ const Portfolio: React.FC = () => {
           </button>
         </div>
       </section>
-      {/* About */}
-      <section className="px-10 py-20">
-        <div className="container mx-auto">
-          <h2 className="mb-4 text-3xl font-bold">About Me</h2>
-          <p className="mb-8 text-lg">
-            I am a passionate web developer with several years of experience in
-            building user-friendly and performant web applications. I specialize
-            in frontend development, focusing on creating intuitive and
-            responsive interfaces using modern technologies.
-          </p>
-          <p className="text-lg">Some of my skills include:</p>
-          <ul className="ml-8 mt-4 list-disc">
-            <li>React</li>
-            <li>TypeScript</li>
-            <li>Tailwind CSS</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-          </ul>
-        </div>
-      </section>
+      <About />
       {/* Projects */}
       <section className="bg-gray-200 px-10 py-20">
         <div className="container mx-auto">
