@@ -10,8 +10,11 @@ function Footer() {
         <div className="flex w-4/12 justify-center">
           <img alt="Logo" src={logo} className="h-12 w-12" />
         </div>
-        <span className="w-4/12 text-center uppercase text-gray-500">
-          BY {import.meta.env.VITE_USERNAME}
+        <span className="w-4/12 text-center text-2xl uppercase text-gray-500">
+          BY{' '}
+          <span className="font-bold text-gray-600">
+            {import.meta.env.VITE_USERNAME}
+          </span>
         </span>
         <span className="flex w-4/12 flex-row items-center justify-center gap-2">
           <TfiWorld className="text-4xl" />
