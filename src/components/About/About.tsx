@@ -17,9 +17,15 @@ export function About() {
           <br />
           <span className="text-black">ME</span>
         </h2>
-        <button className="relative z-10 float-right mt-2 flex flex-row justify-center gap-3 border-2 border-black bg-white py-5 px-10 transition-all duration-150 hover:shadow-xl">
+        <a
+          href="./Stefan Nikolic Resume.pdf"
+          download="Stefan-Nikolic-CV.pdf"
+          target="_blank"
+          rel="noreferrer"
+          className="relative z-10 float-right mt-2 flex flex-row justify-center gap-3 border-2 border-black bg-white py-5 px-10 transition-all duration-150 hover:shadow-xl"
+        >
           Download CV <HiDocumentText className="inline-block text-2xl" />
-        </button>
+        </a>
       </div>
       <div className="relative mb-8 w-3/5 overflow-hidden px-5 text-lg">
         <div className="info h-80 overflow-y-scroll ">
