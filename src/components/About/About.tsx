@@ -10,14 +10,14 @@ export function About() {
         <h2 className="absolute -left-5 top-28 mb-4 text-right font-dalfitra text-8xl leading-snug tracking-tighter text-gray-400 opacity-10">
           ABOUT
           <br />
-          <span className="text-black opacity-[20%]">ME</span>
+          <span className="text-black">ME</span>
         </h2>
         <h2 className="text-right font-dalfitra text-8xl leading-snug tracking-tighter text-gray-400">
           ABOUT
           <br />
           <span className="text-black">ME</span>
         </h2>
-        <button className="float-right mt-2 flex flex-row justify-center gap-3 border-2 border-black bg-white py-5 px-10 transition-all duration-150 hover:shadow-xl">
+        <button className="relative z-10 float-right mt-2 flex flex-row justify-center gap-3 border-2 border-black bg-white py-5 px-10 transition-all duration-150 hover:shadow-xl">
           Download CV <HiDocumentText className="inline-block text-2xl" />
         </button>
       </div>
