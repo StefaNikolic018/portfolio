@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux'
 
 import About from './About'
 import Header from './Header'
+import Skills from './Skills'
 import Footer from './Footer'
 import Marquee from './Marquee'
 
@@ -28,6 +29,7 @@ const Portfolio: React.FC = () => {
         </div>
       </section>
       <About />
+      <Skills />
       {/* Projects */}
       <section className="bg-gray-200 px-10 py-20">
         <div className="container mx-auto">
