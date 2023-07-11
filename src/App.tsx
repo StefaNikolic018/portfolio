@@ -8,7 +8,7 @@ import Portfolio from './components/Portfolio'
 function App(): React.ReactElement {
   return (
     <Provider store={store}>
-      <AnimatedCursor showSystemCursor={true} outerSize={50} color="0,0,0" />
+      <AnimatedCursor showSystemCursor={true} outerSize={20} color="0,0,0" />
       <Portfolio />
     </Provider>
   )
