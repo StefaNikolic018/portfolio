@@ -2,6 +2,12 @@ import React, { memo } from 'react'
 
 import Icons from './Icons'
 
+// TODO:
+// 1. Need to add "more" button for modal that will be glassmorphised
+// 2. Need to add color change on hover
+// 3. Need to add number from 1-10 under hard skills like in the design
+// 4. Need to add soft skills
+
 export function Skills() {
   return (
     <section className="flex flex-row items-start gap-10 bg-gray-800 px-10 py-20">
@@ -20,7 +26,6 @@ export function Skills() {
         <div className="info h-80 overflow-y-scroll pr-28">
           <Icons />
         </div>
-        {/* <div className="absolute bottom-0 h-24 w-full bg-gradient-to-t from-gray-100"></div> */}
       </div>
     </section>
   )
