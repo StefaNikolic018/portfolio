@@ -81,8 +81,6 @@ const Portfolio: React.FC = () => {
           </div>
         </div>
       </section>
-      {/* Companies Logo Marquee */}
-
       <Marquee />
       {/* Contact */}
       <section className="bg-gray-300 px-10 py-20">
