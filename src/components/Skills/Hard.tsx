@@ -8,7 +8,7 @@ import Icons from './Icons'
 // 3. Need to add number from 1-10 under hard skills like in the design
 // 4. Need to add soft skills
 
-export function Skills() {
+export function Hard() {
   return (
     <section className="flex flex-row items-start gap-10 bg-gray-800 px-10 py-20">
       <div className="relative w-1/2 pr-10 ">
@@ -31,4 +31,4 @@ export function Skills() {
   )
 }
 
-export default memo(Skills)
+export default memo(Hard)

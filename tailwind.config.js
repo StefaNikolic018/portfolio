@@ -12,7 +12,21 @@ module.exports = {
       dalfitra: ['Dalfitra', 'cursive'],
       comebro: ['Comebro', 'cursive']
     }
-  }
+  },
+  safelist: [
+    'group-hover:text-orange-400',
+    'group-hover:text-yellow-400',
+    'group-hover:text-sky-400',
+    'group-hover:text-violet-500',
+    'group-hover:text-blue-300',
+    'group-hover:text-blue-400',
+    'group-hover:text-blue-500',
+    'group-hover:text-blue-600',
+    'group-hover:text-sky-300',
+    'group-hover:text-pink-300',
+    'group-hover:text-pink-400',
+    'group-hover:text-cyan-500'
+  ]
 }
 // GANGSTARR - DARK
 // 'text': '#f3f2f1',
