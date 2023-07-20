@@ -5,7 +5,7 @@ import { IconT } from './types'
 const Icon = ({ Icon, name, color }: IconT) => {
   const iconStyle = useMemo(
     () =>
-      `text-6xl text-white transition-all duration-150 group-hover:text-${color}`,
+      `text-6xl text-white transition-all duration-150 group-hover:text-${color} group-hover:scale-110`,
     [color]
   )
   return (
