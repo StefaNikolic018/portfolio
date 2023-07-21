@@ -27,7 +27,7 @@ const MarqueeSection = () => {
           gradient
           className="flex flex-col border-y-2 border-y-black "
         >
-          <div className="flex flex-row items-center justify-center gap-12 py-10">
+          <div className="flex flex-row items-center justify-center gap-[5vw] py-10">
             <img
               src={chipstars}
               alt="ChipstarsBet"
