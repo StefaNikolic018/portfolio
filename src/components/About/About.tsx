@@ -19,7 +19,7 @@ export function About() {
         <DownloadButton />
       </div>
       <div className="relative mb-8 w-3/5 overflow-hidden px-5 text-lg">
-        <div className="info h-80 overflow-y-scroll ">
+        <div className="info h-[30vh] overflow-y-scroll ">
           I am a passionate web developer with several years of experience in
           building user-friendly and performant web applications. I specialize
           in frontend development, focusing on creating intuitive and responsive
