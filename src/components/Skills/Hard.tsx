@@ -12,7 +12,7 @@ export function Hard() {
   return (
     <section className="flex flex-row items-start gap-10 bg-gray-800 px-10 py-20">
       <div className="relative w-1/2 pr-10 ">
-        <h2 className="absolute left-28 top-5 mb-4 text-right font-dalfitra text-9xl leading-snug tracking-tighter text-black opacity-10">
+        <h2 className="absolute right-[8vw] top-5 mb-4 text-right font-dalfitra text-9xl leading-snug tracking-tighter text-black opacity-10">
           HARD <br />
           <span className="text-gray-400">SKILLS</span>
         </h2>

@@ -6,7 +6,7 @@ import logo from './../assets/sn-logo.svg'
 function Footer() {
   return (
     <footer className="border-t-2 border-t-black bg-gray-100 py-10 font-dalfitra font-bold tracking-wider">
-      <div className="container flex flex-row items-center justify-around">
+      <div className="flex flex-row items-center justify-around">
         <div className="flex w-4/12 justify-center">
           <img alt="Logo" src={logo} className="h-12 w-12" />
         </div>

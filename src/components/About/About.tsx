@@ -6,7 +6,7 @@ export function About() {
   return (
     <section className="flex flex-row items-start justify-between gap-10 px-10 py-20">
       <div className="relative w-2/5 border-r-2 border-l-gray-300 pr-10 ">
-        <h2 className="absolute -left-5 top-28 mb-4 text-right font-dalfitra text-8xl leading-snug tracking-tighter text-gray-400 opacity-10">
+        <h2 className="absolute right-[9.5vw] top-28 mb-4 text-right font-dalfitra text-8xl leading-snug tracking-tighter text-gray-400 opacity-10">
           ABOUT
           <br />
           <span className="text-black">ME</span>
