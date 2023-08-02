@@ -10,7 +10,7 @@ import Icons from './Icons'
 
 export function Hard() {
   return (
-    <section className="flex flex-col bg-gray-800 px-10 py-20">
+    <section className="flex flex-col px-10 py-20">
       <div className="flex flex-row items-start">
         <div className="relative w-1/2 pr-10 ">
           <h2 className="absolute right-[21%] top-6 mb-4 text-right font-dalfitra text-9xl leading-snug tracking-tighter text-black opacity-10">
@@ -31,12 +31,12 @@ export function Hard() {
         </div>
       </div>
       <div className="relative">
-        <p className="w-2/4 text-center font-dalfitra text-7xl text-gray-100 opacity-70">
+        <p className="w-2/4 text-center font-dalfitra text-5xl text-gray-100 opacity-70">
           01 - 11+
         </p>
-        <p className="absolute top-1 left-2 w-2/4 text-center font-dalfitra text-7xl text-gray-700">
+        {/* <p className="absolute top-1 left-2 w-2/4 text-center font-dalfitra text-7xl text-gray-700">
           01 - 11+
-        </p>
+        </p> */}
       </div>
     </section>
   )
