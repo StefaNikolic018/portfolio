@@ -1,1 +1,1 @@
-export { default } from './Hard'
+export { default } from './Skills'
