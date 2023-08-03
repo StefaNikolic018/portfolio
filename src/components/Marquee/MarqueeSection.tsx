@@ -11,6 +11,8 @@ import topsetplus from '../../assets/companies/topsetplus.png'
 import fermicoding from '../../assets/companies/fermicoding.png'
 import united_nations from '../../assets/companies/united_nations.png'
 
+// TODO: Check out the whitespace under the marquee and change the NAME OF THE COMPONENT TO "BRANDS" and CREATE FUNCTION TO RENDER IMAGES INSTEAD OF THIS
+
 const MarqueeSection = () => {
   return (
     <section className="py-10">

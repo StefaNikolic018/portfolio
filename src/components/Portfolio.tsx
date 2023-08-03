@@ -85,17 +85,6 @@ const Portfolio: React.FC = () => {
       <Marquee />
       {/* Contact */}
       <Contact />
-      <section className="bg-gray-300 px-10 py-20">
-        <div className="container mx-auto">
-          <h2 className="mb-4 text-3xl font-bold">Contact Me</h2>
-          <p className="mb-8 text-lg">
-            Feel free to reach out to me for any inquiries or collaboration
-            opportunities. I'm available for freelance work and open to new
-            projects.
-          </p>
-          {/* Contact form needs to be here */}
-        </div>
-      </section>
       <Footer />
     </div>
   )
