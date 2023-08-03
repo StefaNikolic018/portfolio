@@ -11,7 +11,7 @@ const Icon = ({ Icon, name, color }: IconT) => {
   return (
     <div className="group flex flex-row items-center justify-between border-b-2 border-b-gray-700 px-5 py-5">
       <Icon className={iconStyle} />{' '}
-      <span className="pr-5 font-dalfitra text-6xl text-white opacity-5 transition-all duration-150 group-hover:opacity-20">
+      <span className="pr-5 font-dalfitra text-6xl text-white opacity-10 transition-all duration-150 group-hover:opacity-50">
         {name}
       </span>
     </div>

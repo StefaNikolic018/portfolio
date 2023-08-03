@@ -6,6 +6,7 @@ import Header from './Header'
 import Skills from './Skills'
 import Footer from './Footer'
 import Marquee from './Marquee'
+import Contact from './Contact'
 
 const Portfolio: React.FC = () => {
   const darkMode = useSelector((state: { darkMode: boolean }) => state.darkMode)
@@ -83,6 +84,7 @@ const Portfolio: React.FC = () => {
       </section>
       <Marquee />
       {/* Contact */}
+      <Contact />
       <section className="bg-gray-300 px-10 py-20">
         <div className="container mx-auto">
           <h2 className="mb-4 text-3xl font-bold">Contact Me</h2>

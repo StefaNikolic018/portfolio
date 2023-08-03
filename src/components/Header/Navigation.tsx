@@ -1,6 +1,6 @@
 import React from 'react'
 
-import DarkModeToggle from '../../features/darkMode/components/DarkModeToggle'
+import DarkModeToggle from '../../features/DarkMode/components/DarkModeToggle'
 
 // TODO:
 // 1. WHEN CLICKED ON ABOUT ME "BUT IT FEELS SO EMPTY WITHOUT ME" FROM EMINEMS WITHOUT ME GETS PLAYED

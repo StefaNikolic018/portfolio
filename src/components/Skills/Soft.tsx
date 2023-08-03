@@ -25,13 +25,15 @@ const skills = [
   'OPENNESS TO CRITICISIM'
 ]
 
-const skillCards = () =>
-  skills.map((skill) => (
-    <div className="group rounded-lg border-2 border-gray-500 bg-gradient-to-r  from-gray-600 p-3 tracking-wider text-white transition-all duration-500 hover:border-gray-300">
-      <LuSquareDot className="mr-5 inline-block text-2xl transition-all group-hover:rotate-45 group-hover:transition-all group-hover:duration-500" />
-      {skill}
-    </div>
-  ))
+const skillCards = skills.map((skill) => (
+  <div
+    key={skill}
+    className="group rounded-lg border-2 border-gray-500 bg-gradient-to-r  from-gray-600 p-3 tracking-wider text-gray-300 transition-all duration-500 hover:border-gray-300 hover:text-white"
+  >
+    <LuSquareDot className="mr-5 inline-block text-2xl transition-all group-hover:rotate-45 group-hover:transition-all group-hover:duration-500" />
+    {skill}
+  </div>
+))
 
 export function Soft() {
   return (
@@ -46,7 +48,7 @@ export function Soft() {
       </div>
       <div className="relative mb-8 flex w-full justify-center gap-5 overflow-hidden px-5 text-lg">
         <div className="flex w-full flex-row flex-wrap items-center gap-5 xl:w-8/12">
-          {skillCards()}
+          {skillCards}
         </div>
       </div>
     </section>
