@@ -2,13 +2,6 @@ import React, { memo } from 'react'
 
 import { LuSquareDot } from 'react-icons/lu'
 
-import Icons from './Icons'
-
-// TODO:
-// 1. Need to add "more" button for modal that will be glassmorphised style
-// 2. Need to add color change on hover
-// 3. Need to add number from 1-10 under hard skills like in the design
-// 4. Need to add soft skills
 // SOFT SKILLS
 const skills = [
   'COMMUNICATION',
