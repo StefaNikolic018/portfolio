@@ -5,7 +5,7 @@ import About from './About'
 import Header from './Header'
 import Skills from './Skills'
 import Footer from './Footer'
-import Marquee from './Marquee'
+import Brands from './Brands'
 import Contact from './Contact'
 
 const Portfolio: React.FC = () => {
@@ -82,7 +82,7 @@ const Portfolio: React.FC = () => {
           </div>
         </div>
       </section>
-      <Marquee />
+      <Brands />
       {/* Contact */}
       <Contact />
       <Footer />
