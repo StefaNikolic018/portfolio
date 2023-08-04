@@ -39,7 +39,7 @@ const index = () => {
       gradient
       className="border-y-2 border-y-black "
     >
-      <div className="flex flex-row items-center justify-center gap-[5vw] py-10">
+      <div className="mr-[5vw] flex flex-row items-center justify-center gap-[5vw] py-10">
         {logos}
       </div>
     </Marquee>
