@@ -7,8 +7,12 @@ const Experience = () => {
         <div className="border-2-2 absolute left-1/2 h-full border border-gray-700 border-opacity-20"></div>
         <div className="right-timeline mb-8 flex w-full items-center justify-between">
           <div className="order-1 w-5/12"></div>
-          <div className="z-20 order-1 flex h-8 w-8 items-center rounded-full bg-gray-800 shadow-xl">
-            <h1 className="mx-auto text-lg font-semibold text-white">1</h1>
+          <div className="z-20 order-1 flex items-center rounded-full bg-gray-800 shadow-xl">
+            <div className="mx-auto flex flex-col items-center justify-center p-5 text-sm font-semibold text-white">
+              <p>PRESENT</p>
+              <div className=" rotate-90">-</div>
+              <p>10/2022</p>
+            </div>
           </div>
           <div className="order-1 w-5/12 rounded-lg bg-gray-400 px-6 py-4 shadow-xl">
             <h3 className="mb-3 text-xl font-bold text-gray-800">
@@ -25,8 +29,12 @@ const Experience = () => {
 
         <div className="left-timeline mb-8 flex w-full flex-row-reverse items-center justify-between">
           <div className="order-1 w-5/12"></div>
-          <div className="z-20 order-1 flex h-8 w-8 items-center rounded-full bg-gray-800 shadow-xl">
-            <h1 className="mx-auto text-lg font-semibold text-white">2</h1>
+          <div className="z-20 order-1 flex items-center rounded-full bg-gray-800 shadow-xl">
+            <div className="mx-auto flex flex-col items-center justify-center p-5 text-sm font-semibold text-white">
+              <p>11/2022</p>
+              <div className=" rotate-90">-</div>
+              <p>11/2021</p>
+            </div>
           </div>
           <div className="order-1 w-5/12 rounded-lg bg-red-400 px-6 py-4 shadow-xl">
             <h3 className="mb-3 text-xl font-bold text-white">Lorem Ipsum</h3>
@@ -41,8 +49,12 @@ const Experience = () => {
 
         <div className="right-timeline mb-8 flex w-full items-center justify-between">
           <div className="order-1 w-5/12"></div>
-          <div className="z-20 order-1 flex h-8 w-8 items-center rounded-full bg-gray-800 shadow-xl">
-            <h1 className="mx-auto text-lg font-semibold text-white">3</h1>
+          <div className="z-20 order-1 flex items-center rounded-full bg-gray-800 shadow-xl">
+            <div className="mx-auto flex flex-col items-center justify-center p-5 text-sm font-semibold text-white">
+              <p>11/2021</p>
+              <div className=" rotate-90">-</div>
+              <p>05/2021</p>
+            </div>
           </div>
           <div className="order-1 w-5/12 rounded-lg bg-gray-400 px-6 py-4 shadow-xl">
             <h3 className="mb-3 text-xl font-bold text-gray-800">
@@ -59,8 +71,12 @@ const Experience = () => {
 
         <div className="left-timeline mb-8 flex w-full flex-row-reverse items-center justify-between">
           <div className="order-1 w-5/12"></div>
-          <div className="z-20 order-1 flex h-8 w-8 items-center rounded-full bg-gray-800 shadow-xl">
-            <h1 className="mx-auto text-lg font-semibold text-white">4</h1>
+          <div className="z-20 order-1 flex items-center rounded-full bg-gray-800 shadow-xl">
+            <div className="mx-auto flex flex-col items-center justify-center p-5 text-sm font-semibold text-white">
+              <p>03/2021</p>
+              <div className=" rotate-90">-</div>
+              <p>11/2020</p>
+            </div>
           </div>
           <div className="order-1 w-5/12 rounded-lg bg-red-400 px-6 py-4 shadow-xl">
             <h3 className="mb-3 text-xl font-bold text-white">Lorem Ipsum</h3>
