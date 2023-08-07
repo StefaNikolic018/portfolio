@@ -32,6 +32,8 @@ const Portfolio: React.FC = () => {
       </section>
       <About />
       <Skills />
+      <Experience />
+
       {/* Projects */}
       <section className="bg-gray-200 px-10 py-20">
         <div className="container mx-auto">
@@ -83,7 +85,6 @@ const Portfolio: React.FC = () => {
           </div>
         </div>
       </section>
-      <Experience />
       <Brands />
       {/* Contact */}
       <Contact />

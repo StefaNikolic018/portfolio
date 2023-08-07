@@ -25,7 +25,11 @@ module.exports = {
     'group-hover:text-sky-300',
     'group-hover:text-pink-300',
     'group-hover:text-pink-400',
-    'group-hover:text-cyan-500'
+    'group-hover:text-cyan-500',
+    'bg-gray-200',
+    'bg-gray-300',
+    'bg-gray-400',
+    'bg-gray-500'
   ]
 }
 // GANGSTARR - DARK

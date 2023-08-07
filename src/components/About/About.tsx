@@ -19,22 +19,26 @@ export function About() {
         <DownloadButton />
       </div>
       <div className="relative mb-8 w-3/5 overflow-hidden px-5 text-lg">
-        <div className="info h-[30vh] overflow-y-scroll pr-16 ">
-          I am a passionate web developer with several years of experience in
-          building user-friendly and performant web applications. I specialize
-          in frontend development, focusing on creating intuitive and responsive
-          interfaces using modern technologies. I am a passionate web developer
-          with several years of experience in building user-friendly and
-          performant web applications. I specialize in frontend development,
-          focusing on creating intuitive and responsive interfaces using modern
-          technologies. I am a passionate web developer with several years of
-          experience in building user-friendly and performant web applications.
-          I specialize in frontend development, focusing on creating intuitive
-          and responsive interfaces using modern technologies. I am a passionate
-          web developer with several years of experience in building
-          user-friendly and performant web applications. I specialize in
-          frontend development, focusing on creating intuitive and responsive
-          interfaces using modern technologies.
+        <div className="info h-[30vh] overflow-y-scroll pr-16 pb-12">
+          Motivated web developer with approximately 3 years of experience in
+          crafting dynamic web applications. A collaborative team player with a
+          goal-oriented mindset, I am always ready to embrace fresh challenges
+          and eagerly explore emerging technologies!
+          <br />
+          <br /> Passionate about React/TypeScript and the power it offers with
+          Redux, in love with pretty much everything about Tailwind! With a
+          strong background in backend technologies like PHP(Laravel, Drupal),
+          Node.js & Express, and expertise in MySQL and MongoDB, I bring a
+          comprehensive skill set. <br />
+          <br />
+          Proficient in both Windows and Linux and with some experience on
+          macOS. In addition to my work with vanilla JS, jQuery, Vue.js,
+          Cordova, Nuxt, and Next.js, I am keenly interested in exploring the
+          capabilities of SASS and the creative possibilities of CSS-only
+          solutions.
+          <br />
+          <br /> I eagerly seek a dynamic and well-organized team where I can
+          joyfully contribute my skills!
         </div>
         <div className="absolute bottom-0 h-24 w-full bg-gradient-to-t from-gray-100"></div>
       </div>
