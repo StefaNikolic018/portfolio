@@ -46,7 +46,7 @@ const Portfolio: React.FC = () => {
                 A web application for managing tasks and projects.
               </p>
               <img
-                src="project1-placeholder.png"
+                src=""
                 alt="Project 1"
                 className="mb-4 h-40 w-full object-cover"
               />
@@ -60,7 +60,7 @@ const Portfolio: React.FC = () => {
                 An e-commerce website for selling fashion accessories.
               </p>
               <img
-                src="project2-placeholder.png"
+                src=""
                 alt="Project 2"
                 className="mb-4 h-40 w-full object-cover"
               />
@@ -74,7 +74,7 @@ const Portfolio: React.FC = () => {
                 A blogging platform for sharing articles and tutorials.
               </p>
               <img
-                src="project3-placeholder.png"
+                src=""
                 alt="Project 3"
                 className="mb-4 h-40 w-full object-cover"
               />

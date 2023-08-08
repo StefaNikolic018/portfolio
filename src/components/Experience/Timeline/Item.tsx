@@ -23,7 +23,7 @@ const Item = ({
       }`}
     >
       <div className="order-1 w-5/12"></div>
-      <div className="z-20 order-1 flex items-center rounded-full bg-gray-700 shadow-xl">
+      <div className="z-10 order-1 flex items-center rounded-full bg-gray-700 shadow-xl">
         <div className="mx-auto flex flex-col items-center justify-center p-5 text-sm font-semibold leading-tight tracking-wider text-white">
           <p>{endingDate}</p>
           <div className=" rotate-90">-</div>
@@ -34,13 +34,13 @@ const Item = ({
         <h3 className="mb-3 font-dalfitra text-xl font-bold tracking-wider text-gray-800">
           {name}
         </h3>
-        <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+        <div className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
           <ul className="list-disc">
             {responsibilities.map((r) => (
               <li key={r}>{r}</li>
             ))}
           </ul>
-        </p>
+        </div>
       </div>
     </div>
   )
