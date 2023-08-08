@@ -17,7 +17,7 @@ const Portfolio: React.FC = () => {
   return (
     <div className={`bg-gray-100 ${mode}`}>
       <Header />
-      {/* Hero */}
+      {/* Hero ONLY SKELETON */}
       <section className="flex h-[calc(100vh-72px)] flex-col justify-center bg-blue-500 bg-opacity-50 bg-[url('/src/assets/paper.jpg')] py-20 text-white">
         <div className="container mx-auto text-center">
           <h2 className="mb-4 text-4xl font-bold">Welcome to My Portfolio</h2>
@@ -34,7 +34,7 @@ const Portfolio: React.FC = () => {
       <Skills />
       <Experience />
 
-      {/* Projects */}
+      {/* Projects ONLY SKELETON*/}
       <section className="bg-gray-200 px-10 py-20">
         <div className="container mx-auto">
           <h2 className="mb-4 text-3xl font-bold">Projects</h2>
