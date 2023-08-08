@@ -4,6 +4,8 @@
 
 Vite, React + TailwindCSS + TypeScript project with some tools preconfigured.
 
+> [!IMPORTANT] PORTFOLIO IS STILL IN PROGRESS!!!
+
 <!-- ![Screenshot](assets/screenshot.png) -->
 
 ### Libraries
