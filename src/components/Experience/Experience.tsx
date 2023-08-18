@@ -1,5 +1,4 @@
 import React, { memo } from 'react'
-// import './style.css'
 
 import Timeline from './Timeline'
 
