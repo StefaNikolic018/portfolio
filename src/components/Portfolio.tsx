@@ -7,7 +7,7 @@ import Skills from './Skills'
 import Footer from './Footer'
 import Brands from './Brands'
 import Contact from './Contact'
-import Experience from './Experience/Experience'
+import Experience from './Experience'
 
 const Portfolio: React.FC = () => {
   const darkMode = useSelector((state: { darkMode: boolean }) => state.darkMode)

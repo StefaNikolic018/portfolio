@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { memo } from 'react'
+// import './style.css'
 
 import Timeline from './Timeline'
 
@@ -13,4 +14,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default memo(Experience)
